@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "lang": "fr",
+    "title": "L’e-invoicing européen n’est plus seulement un sujet de format",
+    "date": "2026-03-01",
+    "category": "architecture",
+    "excerpt": "La vraie rupture n’est pas technique mais architecturale : autorité de validation, continuité probatoire et distribution de la conformité deviennent des enjeux de gouvernance.",
+    "linkedin_url": "https://www.linkedin.com/in/votre-profil/",
+    "tags": ["architecture", "governance", "vida"],
+    "expert_name": "Expert guest",
+    "expert_role": "Policy / Tax Technology",
+    "expert_comment": "Le débat européen reste trop centré sur les flux et pas assez sur la localisation effective de l’autorité normative."
+  },
+  {
+    "id": 2,
+    "lang": "fr",
+    "title": "ViDA ne supprimera pas les logiques nationales de gouvernance",
+    "date": "2026-02-24",
+    "category": "vida",
+    "excerpt": "La convergence sur certains mécanismes de reporting ne signifie pas disparition des architectures souveraines. La gouvernance reste distribuée selon des logiques nationales.",
+    "linkedin_url": "https://www.linkedin.com/in/votre-profil/",
+    "tags": ["vida", "governance"],
+    "expert_name": "Guest contributor",
+    "expert_role": "Indirect Tax",
+    "expert_comment": "L’harmonisation fonctionnelle est une chose ; l’unification des responsabilités de preuve et de validation en est une autre."
+  },
+  {
+    "id": 3,
+    "lang": "fr",
+    "title": "Clearance, plateforme, reporting : il faut comparer les architectures avant les outils",
+    "date": "2026-02-18",
+    "category": "clearance",
+    "excerpt": "Comparer les API ou les formats avant de comparer les modèles de gouvernance produit des diagnostics incomplets. Le bon point d’entrée reste l’architecture.",
+    "linkedin_url": "https://www.linkedin.com/in/votre-profil/",
+    "tags": ["clearance", "architecture"],
+    "expert_name": "Expert reviewer",
+    "expert_role": "E-Invoicing Architect",
+    "expert_comment": "Une taxonomie claire des modèles aide énormément les groupes multi-pays à arbitrer leurs choix d’orchestration."
+  },
+  {
+    "id": 4,
+    "lang": "en",
+    "title": "European e-invoicing is becoming a governance architecture question",
+    "date": "2026-03-01",
+    "category": "governance",
+    "excerpt": "The question is no longer only how to connect systems, but how to preserve validation logic, traceability, and evidentiary continuity across fragmented national regimes.",
+    "linkedin_url": "https://www.linkedin.com/in/your-profile/",
+    "tags": ["governance", "architecture"],
+    "expert_name": "Expert guest",
+    "expert_role": "Tax Technology",
+    "expert_comment": "The missing layer in many enterprise discussions is not transport, but compliance orchestration."
+  },
+  {
+    "id": 5,
+    "lang": "en",
+    "title": "ViDA convergence does not erase national architecture persistence",
+    "date": "2026-02-24",
+    "category": "vida",
+    "excerpt": "Regulatory convergence may align reporting principles while leaving national governance design, validation flows, and platform logic very much intact.",
+    "linkedin_url": "https://www.linkedin.com/in/your-profile/",
+    "tags": ["vida", "governance"],
+    "expert_name": "Guest contributor",
+    "expert_role": "VAT / Digital Compliance",
+    "expert_comment": "There is a major difference between policy convergence and operational architecture convergence."
+  }
+]
