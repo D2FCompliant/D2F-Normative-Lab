@@ -1,0 +1,69 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 320 320"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">D2F Normative Lab logo</title>
+  <desc id="desc">
+    Abstract geometric logo representing governance architecture,
+    compliance orchestration and European digital flows.
+  </desc>
+
+  <defs>
+    <linearGradient id="gradA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#52C7EA"/>
+      <stop offset="100%" stop-color="#8CF0CF"/>
+    </linearGradient>
+    <linearGradient id="gradB" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#CFE7FF"/>
+      <stop offset="100%" stop-color="#52C7EA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="320" height="320" rx="44" fill="#0B1020"/>
+
+  <g transform="translate(40 42)">
+    <path
+      d="M24 34 C24 17 37 4 54 4 H142
+         C190 4 228 42 228 90
+         C228 138 190 176 142 176 H54
+         C37 176 24 163 24 146 Z"
+      fill="none"
+      stroke="url(#gradA)"
+      stroke-width="18"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <path
+      d="M80 60 H144
+         C162 60 176 74 176 92
+         C176 110 162 124 144 124 H80"
+      fill="none"
+      stroke="url(#gradB)"
+      stroke-width="16"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <path
+      d="M80 124 H132"
+      fill="none"
+      stroke="url(#gradA)"
+      stroke-width="16"
+      stroke-linecap="round"
+    />
+
+    <circle cx="194" cy="44" r="12" fill="#8CF0CF"/>
+    <circle cx="212" cy="92" r="10" fill="#52C7EA"/>
+    <circle cx="194" cy="140" r="8" fill="#CFE7FF"/>
+
+    <path
+      d="M176 92 H212"
+      stroke="#8AA8D8"
+      stroke-width="4"
+      opacity="0.8"
+    />
+  </g>
+</svg>
