@@ -1,41 +1,40 @@
 <!doctype html>
-<html lang="en" data-lang="en">
+<html lang="fr" data-lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>LinkedIn Signature | D2F Normative Lab</title>
+    <title>Signature LinkedIn | D2F Normative Lab</title>
     <meta
       name="description"
-      content="A curated, interactive layer of LinkedIn publications and expert reactions by D2F Normative Lab."
+      content="Une couche éditoriale interactive qui reprend les publications LinkedIn de D2F Normative Lab et ouvre l’espace à l’intervention d’experts."
     />
-    <link rel="icon" href="assets/logo-d2f.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="../assets/logo-d2f.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="container nav">
         <a class="brand" href="index.html">
-          <img src="assets/logo-d2f.svg" alt="D2F logo" class="brand-logo" />
+          <img src="../assets/logo-d2f.svg" alt="Logo D2F" class="brand-logo" />
           <div class="brand-copy">
             <strong>D2F Normative Lab</strong>
-            <span>European e-Invoicing Governance Architecture</span>
+            <span>Architecture de gouvernance de l’e-invoicing en Europe</span>
           </div>
         </a>
 
-        <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
 
         <nav class="menu">
-          <a href="index.html">Home</a>
-          <a href="framework.html">Framework</a>
+          <a href="index.html">Accueil</a>
+          <a href="framework.html">Cadre</a>
           <a href="notes.html">Notes</a>
           <a href="publications.html">Publications</a>
-          <a href="map.html">Comparative Map</a>
-          <a href="lab.html">Écosystème</a>
-          <a href="linkedin.html">LinkedIn Signature</a>
+          <a href="map.html">Cartographie</a>
+          <a href="linkedin.html">Signature LinkedIn</a>
           <a href="contact.html">Contact</a>
-          <a href="fr/linkedin.html" class="lang-link">FR</a>
+          <a href="../linkedin.html" class="lang-link">EN</a>
         </nav>
       </div>
     </header>
@@ -43,11 +42,12 @@
     <main>
       <section class="page-hero">
         <div class="container narrow">
-          <p class="eyebrow">Editorial relay</p>
-          <h1 class="page-title">LinkedIn Signature</h1>
+          <p class="eyebrow">Relais éditorial</p>
+          <h1 class="page-title">Signature LinkedIn</h1>
           <p class="lead">
-            A curated and interactive layer of your LinkedIn posts, reframed as
-            a living space for expert dialogue, reaction, and structured visibility.
+            Une couche éditoriale interactive qui reprend vos posts LinkedIn
+            et les transforme en espace de lecture, de réaction experte
+            et de conversation structurée.
           </p>
         </div>
       </section>
@@ -55,22 +55,22 @@
       <section class="section">
         <div class="container split">
           <div class="glass-card">
-            <p class="section-tag">Why this page exists</p>
-            <h2>From social post to expert conversation.</h2>
+            <p class="section-tag">Pourquoi cette page</p>
+            <h2>Faire passer un post social vers une conversation experte.</h2>
             <p>
-              LinkedIn gives reach. This page gives structure. It turns your posts
-              into a stable editorial layer where experts can read, react, cite,
-              and extend the conversation beyond the platform feed.
+              LinkedIn crée la portée. Cette page crée la structure. Elle donne
+              à vos publications une forme plus stable, plus lisible et plus
+              exploitable pour des experts, institutions, partenaires et acteurs marché.
             </p>
           </div>
 
           <div class="glass-card">
-            <p class="section-tag">Interaction model</p>
+            <p class="section-tag">Logique d’interaction</p>
             <ul class="clean-list">
-              <li>curated post selection</li>
-              <li>tag-based navigation</li>
-              <li>expert reaction blocks</li>
-              <li>call-to-intervene for peers and institutions</li>
+              <li>sélection éditoriale de posts</li>
+              <li>navigation par thèmes</li>
+              <li>blocs de réactions expertes</li>
+              <li>appel à contribution pour les pairs et institutions</li>
             </ul>
           </div>
         </div>
@@ -80,15 +80,15 @@
         <div class="container">
           <div class="filter-bar glass-card">
             <div class="filter-head">
-              <h2>Selected posts</h2>
+              <h2>Posts sélectionnés</h2>
               <p class="lead-small">
-                Filter by topic, then open the post and the expert layer.
+                Filtrez par thème, puis ouvrez le post et sa couche d’intervention experte.
               </p>
             </div>
 
             <div class="filter-actions" id="post-filters">
-              <button class="chip-button is-active" type="button" data-filter="all">All</button>
-              <button class="chip-button" type="button" data-filter="governance">Governance</button>
+              <button class="chip-button is-active" type="button" data-filter="all">Tous</button>
+              <button class="chip-button" type="button" data-filter="governance">Gouvernance</button>
               <button class="chip-button" type="button" data-filter="vida">ViDA</button>
               <button class="chip-button" type="button" data-filter="clearance">Clearance</button>
               <button class="chip-button" type="button" data-filter="architecture">Architecture</button>
@@ -97,7 +97,7 @@
 
           <div class="post-grid" id="linkedin-posts">
             <article class="post-card glass-card">
-              <p>Loading posts…</p>
+              <p>Chargement des publications…</p>
             </article>
           </div>
         </div>
@@ -106,27 +106,27 @@
       <section class="section">
         <div class="container split">
           <div class="glass-card">
-            <p class="section-tag">Expert intervention</p>
-            <h2>Invite a response, not just a reaction.</h2>
+            <p class="section-tag">Intervention experte</p>
+            <h2>Inviter une prise de position, pas seulement une réaction.</h2>
             <p>
-              The goal is not to collect generic comments, but to open a higher-level
-              exchange with tax experts, architects, policy actors, platforms, and
-              practitioners operating across Europe.
+              L’objectif n’est pas d’accumuler des commentaires génériques,
+              mais d’ouvrir un espace d’échange de niveau expert avec fiscalistes,
+              architectes, plateformes, acteurs publics et praticiens européens.
             </p>
           </div>
 
           <div class="glass-card">
-            <h3>Ways to contribute</h3>
+            <h3>Formes de contribution</h3>
             <ul class="clean-list">
-              <li>submit a short expert reaction</li>
-              <li>propose a counterpoint or extension</li>
-              <li>signal a national market development</li>
-              <li>suggest a conference or publication dialogue</li>
+              <li>soumettre une réaction experte courte</li>
+              <li>proposer un contrepoint ou un prolongement</li>
+              <li>signaler une évolution nationale de marché</li>
+              <li>ouvrir un échange conférence ou publication</li>
             </ul>
 
             <div class="hero-actions">
-              <a class="btn btn-primary" href="contact.html">Contribute to the discussion</a>
-              <a class="btn btn-secondary" href="notes.html">Read the notes</a>
+              <a class="btn btn-primary" href="contact.html">Contribuer à la discussion</a>
+              <a class="btn btn-secondary" href="notes.html">Lire les notes</a>
             </div>
           </div>
         </div>
@@ -136,16 +136,15 @@
     <footer class="site-footer">
       <div class="container footer-grid">
         <div>
-  <strong>D2F Normative Lab</strong>
-  <p>Architecture de gouvernance de l’e-invoicing européen</p>
-  <p>© 2026 D2F Normative Lab — Tous droits réservés.</p>
-</div>
+          <strong>D2F Normative Lab</strong>
+          <p>Architecture de gouvernance de l’e-invoicing en Europe</p>
+        </div>
         <div>
           <p>Think — Verify — Implement</p>
         </div>
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
   </body>
 </html>
